@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="不呆猫 合集下载">
+    <meta name="description" content="不呆猫 62套 写真合集下载">
+    <title>不呆猫 合集下载</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 10px 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+        /* Lightbox modal */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 80%;
+            margin: auto;
+            border-radius: 8px;
+        }
+        .lightbox .prev, .lightbox .next {
+            position: absolute;
+            top: 50%;
+            font-size: 30px;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 1001;
+        }
+        .lightbox .prev {
+            left: 10px;
+        }
+        .lightbox .next {
+            right: 10px;
+        }
+        .collection-list {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .collection-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .collection-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>不呆猫 合集下载</h1>
+    <p>不呆猫 62套 写真合集下载</p>
+    <!-- 下载地址 -->
+    <a href="https://xn--zqst49fbma.com/" class="download-link">点击下载高清图片</a>
+</header>
+
+<div class="container">
+    <!-- 图片展示 -->
+    <div class="image-gallery">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xrpjk-1.webp" alt="图片 1" onclick="openLightbox(0)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xs68v-1.webp" alt="图片 2" onclick="openLightbox(1)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xsc1c-1.webp" alt="图片 3" onclick="openLightbox(2)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xsckq-1.webp" alt="图片 4" onclick="openLightbox(3)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xsmfa-1.webp" alt="图片 5" onclick="openLightbox(4)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xssny-1.webp" alt="图片 6" onclick="openLightbox(5)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xsr3m-1.webp" alt="图片 7" onclick="openLightbox(6)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xtbe1-1.webp" alt="图片 8" onclick="openLightbox(7)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xthzw-1.webp" alt="图片 9" onclick="openLightbox(8)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xthlz-1.webp" alt="图片 10" onclick="openLightbox(9)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xtfh2-1.webp" alt="图片 11" onclick="openLightbox(10)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xto31-1.webp" alt="图片 12" onclick="openLightbox(11)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xtoio-1.webp" alt="图片 13" onclick="openLightbox(12)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2ea6-1.webp" alt="图片 14" onclick="openLightbox(13)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2s0o-1.webp" alt="图片 15" onclick="openLightbox(14)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2nl3-1.webp" alt="图片 16" onclick="openLightbox(15)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2pax-1.webp" alt="图片 17" onclick="openLightbox(16)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y33cq-1.webp" alt="图片 18" onclick="openLightbox(17)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y37me-1.webp" alt="图片 19" onclick="openLightbox(18)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3kic-1.webp" alt="图片 20" onclick="openLightbox(19)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3ke1-1.webp" alt="图片 21" onclick="openLightbox(20)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3pjl-1.webp" alt="图片 22" onclick="openLightbox(21)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3tje-1.webp" alt="图片 23" onclick="openLightbox(22)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3qkj-1.webp" alt="图片 24" onclick="openLightbox(23)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y409z-1.webp" alt="图片 25" onclick="openLightbox(24)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y4716-1.webp" alt="图片 26" onclick="openLightbox(25)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xrogg-1.webp" alt="图片 27" onclick="openLightbox(26)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xryz7-1.webp" alt="图片 28" onclick="openLightbox(27)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y48k7-1.webp" alt="图片 29" onclick="openLightbox(28)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xs0f3-1.webp" alt="图片 30" onclick="openLightbox(29)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xs3za-1.webp" alt="图片 31" onclick="openLightbox(30)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xsuhw-1.webp" alt="图片 32" onclick="openLightbox(31)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xt3mc-1.webp" alt="图片 33" onclick="openLightbox(32)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10xt7yo-1.webp" alt="图片 34" onclick="openLightbox(33)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2i1y-1.webp" alt="图片 35" onclick="openLightbox(34)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y2v8y-1.webp" alt="图片 36" onclick="openLightbox(35)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y3art-1.webp" alt="图片 37" onclick="openLightbox(36)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y39ye-1.webp" alt="图片 38" onclick="openLightbox(37)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y42le-1.webp" alt="图片 39" onclick="openLightbox(38)">
+        <img src="https://jarcn.com:18088/i/2025/02/04/10y4gpk-1.webp" alt="图片 40" onclick="openLightbox(39)">
+
+    </div>
+
+    <!-- 合集列表 -->
+    <div class="collection-list">
+        <h3>合集列表：</h3>
+        <ul>
+            <li>NO.001 三亚泳衣 [41P-1V-453MB]</li>
+            <li>NO.002 上司露出 [70P-1V-411MB]</li>
+            <li>NO.003 人妻白旗袍 [55P-222MB]</li>
+            <li>NO.004 兔子女友 [55P-493MB]</li>
+            <li>NO.005 兽耳 [23P-297MB]</li>
+            <li>NO.006 厨房小女仆 [35P-337MB]</li>
+            <li>NO.007 吉他姐姐 [39P-3V-1.29GB]</li>
+            <li>NO.008 和服 [39P-47MB]</li>
+            <li>NO.009 圣诞节 [19P-112MB]</li>
+            <li>NO.010 天台小m猫 [96P-1V-1.66GB]</li>
+            <li>NO.011 女仆 [71P-261MB]</li>
+            <li>NO.012 女仆 [78P-224MB]</li>
+            <li>NO.013 女仆呆呆 [50P-648MB]</li>
+            <li>NO.014 奶油少女 [80P-4V-106MB]</li>
+            <li>NO.015 姐姐在家独自买醉 [42P-374MB]</li>
+            <li>NO.016 宫廷仕女 [56P-1V-1.40GB]</li>
+            <li>NO.017 家教猫老师 34P [34P-171MB]</li>
+            <li>NO.018 居家猫猫女友 [59P-1V-395MB]</li>
+            <li>NO.019 巫女 [12P-57MB]</li>
+            <li>NO.020 性感秘书 [40P-532MB]</li>
+            <li>NO.021 战国袍 [140P-2V-1.95GB]</li>
+            <li>NO.022 放课后野外JK [101P-1.73GB]</li>
+            <li>NO.023 新浴室人妻 [32P-130MB]</li>
+            <li>NO.024 校服JK [64P-4V-519MB]</li>
+            <li>NO.025 水手服百合黑丝 [51P-1V-1.03GB]</li>
+            <li>NO.026 泳衣JK学妹 [59P-1V-1.30GB]</li>
+            <li>NO.027 浴室人妻 [42P-3V-1.61GB]</li>
+            <li>NO.028 浴室粉色激凸人妻 [39P-1V-420MB]</li>
+            <li>NO.029 清纯妹妹 [24P-81MB]</li>
+            <li>NO.030 温柔风连衣裙 [15P-18MB]</li>
+            <li>NO.031 温泉双马尾JK [22P-1V-713MB]</li>
+            <li>NO.032 灰丝御姐 [40P-2V-357MB]</li>
+            <li>NO.033 牛奶 [35P-284MB]</li>
+            <li>NO.034 狂三黑丝白丝 [54P-502MB]</li>
+            <li>NO.035 狐狸 [26P-88MB]</li>
+            <li>NO.036 獒犬海边泳装 [41P-327MB]</li>
+            <li>NO.037 玛丽罗斯涂油比基尼 [47P-10V-865MB]</li>
+            <li>NO.038 白丝过膝袜 [21P-12V-209MB]</li>
+            <li>NO.039 白月光 [53P-296MB]</li>
+            <li>NO.040 白色兔女郎 [28P-56MB]</li>
+            <li>NO.041 白色情趣婚纱 [24P-33MB]</li>
+            <li>NO.042 粉红 [14P-51MB]</li>
+            <li>NO.043 粉色小护士 [42P-377MB]</li>
+            <li>NO.044 紫色人妻日常 [33P-1V-627MB]</li>
+            <li>NO.045 绳子和服 [110P-2V-199MB]</li>
+            <li>NO.046 绳艺 JK制服 [32P-447MB]</li>
+            <li>NO.047 绷带 [32P-1V-433MB]</li>
+            <li>NO.048 自拍 [18P-28MB]</li>
+            <li>NO.049 西域风情 [52P-3V-116MB]</li>
+            <li>NO.050 调教女王 [91P-1V-1.43GB]</li>
+            <li>NO.051 连体黑丝 [35P-325MB]</li>
+            <li>NO.052 醉酒人妻 [47P-1V-902MB]</li>
+            <li>NO.053 霸气红色人妻 [57P-1V-1.78GB]</li>
+            <li>NO.054 靡烟白皮旗袍 [54P-2V-867MB]</li>
+            <li>NO.055 黑旗袍过膝袜御姐 [42P-1.09GB]</li>
+            <li>NO.056 黑白旗袍双子 [41P-231MB]</li>
+            <li>NO.057 小恶魔 [75P-1V-1.37GB]</li>
+            <li>NO.058 白色兔子JK [63P-389MB]</li>
+            <li>NO.059 OL 顶头上司 [91P-1V-1.42GB]</li>
+            <li>NO.060 教师 [59P-1V-2.23GB]</li>
+            <li>NO.061 双人秘书 [50P-1V-507MB]</li>
+            <li>NO.062 粉色衬衣女友 [66P-1V-1.07GB]</li>
+
+        </ul>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+        <img id="lightbox-image" src="" alt="大图展示">
+        <span class="next" onclick="changeImage(1)">&#10095;</span>
+    </div>
+</div>
+
+<script>
+    const images = [
+        "https://jarcn.com:18088/i/2025/02/04/10xrpjk-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xs68v-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xsc1c-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xsckq-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xsmfa-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xssny-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xsr3m-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xtbe1-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xthzw-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xthlz-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xtfh2-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xto31-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xtoio-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2ea6-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2s0o-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2nl3-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2pax-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y33cq-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y37me-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3kic-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3ke1-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3pjl-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3tje-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3qkj-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y409z-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y4716-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xrogg-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xryz7-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y48k7-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xs0f3-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xs3za-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xsuhw-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xt3mc-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10xt7yo-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2i1y-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y2v8y-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y3art-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y39ye-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y42le-1.webp",
+        "https://jarcn.com:18088/i/2025/02/04/10y4gpk-1.webp",
+
+    ];
+
+    let currentIndex = 0;
+
+    // 打开相册（点击图片）
+    function openLightbox(index) {
+        currentIndex = index;
+        document.getElementById("lightbox-image").src = images[currentIndex];
+        document.getElementById("lightbox").style.display = "flex";
+    }
+
+    // 切换图片
+    function changeImage(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) currentIndex = images.length - 1;
+        if (currentIndex >= images.length) currentIndex = 0;
+        document.getElementById("lightbox-image").src = images[currentIndex];
+    }
+
+    // 关闭相册
+    document.getElementById("lightbox").addEventListener("click", function(event) {
+        if (event.target === this) {
+            this.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>
